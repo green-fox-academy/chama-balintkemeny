@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-01/day-3/cpp_ex_14/main.cpp
+iostream
+-
+
