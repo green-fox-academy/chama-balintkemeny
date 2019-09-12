@@ -13,11 +13,13 @@ int main() {
 
     std::cout << "How many rows do you want in your pyramid?" << std::endl;
     std::cin >> numberOfCycles;
-    maxCharactersInRow = 1 + (numberOfCycles - 1) * 2;
+    maxCharactersInRow = numberOfCycles * 2 - 1;
 
     while (currentCycle <= numberOfCycles) {
         numberOfSpaces = (maxCharactersInRow - charactersInRow) / 2;
-        std::cout << std::string(numberOfSpaces, space) << std::string(charactersInRow, star) << std::string(numberOfSpaces, space) << std::endl;
+        std::cout << std::string(numberOfSpaces, space);
+        std::cout << std::string(charactersInRow, star);
+        std::cout << std::string(numberOfSpaces, space) << std::endl;
         charactersInRow += 2;
         currentCycle++;
     }

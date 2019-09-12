@@ -1,0 +1,3 @@
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-01/day-4/cpp_ex_23/cmake-build-debug/CMakeFiles/cpp_ex_23.dir
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-01/day-4/cpp_ex_23/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-01/day-4/cpp_ex_23/cmake-build-debug/CMakeFiles/rebuild_cache.dir
