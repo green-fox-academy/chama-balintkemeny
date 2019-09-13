@@ -28,7 +28,7 @@ int main() {
     for (int i = 0; i < newSize; ++i) {
         std::cout << tempResult[i] << std::endl;
     }
-    
+
     return 0;
 }
 
