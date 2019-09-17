@@ -1,0 +1,3 @@
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-2/00_MaterialReview/cmake-build-debug/CMakeFiles/00_MaterialReview.dir
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-2/00_MaterialReview/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-2/00_MaterialReview/cmake-build-debug/CMakeFiles/rebuild_cache.dir
