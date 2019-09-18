@@ -5,6 +5,7 @@
 #include <cstdlib>
 #include <ctime>
 
+
 int starPos[10][2];
 int *ptrStarPos = &starPos[0][0];
 bool fill = false;
@@ -30,9 +31,9 @@ void draw(SDL_Renderer* gRenderer) {
     SDL_RenderFillRect(gRenderer, &fillRect);
 
     srand (time(NULL));
-    int light = rand() % 205 + 50;
 
     for (int i = 0; i < 10; ++i) {
+        int light = rand() % 205 + 50;
         SDL_SetRenderDrawColor(gRenderer, light, light, light, 255);
         SDL_Rect fillRect = {starPos[i][0], starPos[i][1], 5, 5};
         SDL_RenderFillRect(gRenderer, &fillRect);
