@@ -3,3 +3,4 @@ D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-
 D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/CMakeFiles/draw_ex03.dir
 D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/CMakeFiles/draw_ex04.dir
