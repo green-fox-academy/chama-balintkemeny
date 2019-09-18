@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/draw.cpp
-draw.h
-D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/draw.h
-
 D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/draw.h
 SDL.h
 -
+
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/draw_ex02.cpp
+draw.h
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/draw.h
 
 D:/SDL2/SDL2-2.0.8/i686-w64-mingw32/include/SDL2/SDL.h
 SDL_main.h
