@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\
 CMakeFiles/draw_ex02.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex02.dir\build.make CMakeFiles/draw_ex02.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex02.dir\build.make CMakeFiles/draw_ex02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10,11,12,13 "Built target draw_ex02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10,11,12 "Built target draw_ex02"
 .PHONY : CMakeFiles/draw_ex02.dir/all
 
 # Include target in all.
@@ -80,7 +80,7 @@ all: CMakeFiles/draw_ex02.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/draw_ex02.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 6
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex02.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/draw_ex02.dir/rule
@@ -144,7 +144,7 @@ clean: CMakeFiles/draw.dir/clean
 CMakeFiles/draw_ex03.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex03.dir\build.make CMakeFiles/draw_ex03.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex03.dir\build.make CMakeFiles/draw_ex03.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=14,15,16,17,18,19,20 "Built target draw_ex03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=13,14,15,16,17,18 "Built target draw_ex03"
 .PHONY : CMakeFiles/draw_ex03.dir/all
 
 # Include target in all.
@@ -154,7 +154,7 @@ all: CMakeFiles/draw_ex03.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/draw_ex03.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 6
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex03.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/draw_ex03.dir/rule
@@ -181,7 +181,7 @@ clean: CMakeFiles/draw_ex03.dir/clean
 CMakeFiles/draw_ex04.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=21,22,23,24,25,26 "Built target draw_ex04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=19,20,21,22,23,24,25 "Built target draw_ex04"
 .PHONY : CMakeFiles/draw_ex04.dir/all
 
 # Include target in all.
@@ -191,7 +191,7 @@ all: CMakeFiles/draw_ex04.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/draw_ex04.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 7
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex04.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/draw_ex04.dir/rule
@@ -218,7 +218,7 @@ clean: CMakeFiles/draw_ex04.dir/clean
 CMakeFiles/draw_ex05.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=27,28,29,30,31,32,33 "Built target draw_ex05"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=26,27,28,29,30,31 "Built target draw_ex05"
 .PHONY : CMakeFiles/draw_ex05.dir/all
 
 # Include target in all.
@@ -228,7 +228,7 @@ all: CMakeFiles/draw_ex05.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/draw_ex05.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 6
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex05.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/draw_ex05.dir/rule
@@ -255,7 +255,7 @@ clean: CMakeFiles/draw_ex05.dir/clean
 CMakeFiles/draw_ex06.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=34,35,36,37,38,39,40 "Built target draw_ex06"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=32,33,34,35,36,37 "Built target draw_ex06"
 .PHONY : CMakeFiles/draw_ex06.dir/all
 
 # Include target in all.
@@ -265,7 +265,7 @@ all: CMakeFiles/draw_ex06.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/draw_ex06.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 6
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex06.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/draw_ex06.dir/rule
@@ -292,7 +292,7 @@ clean: CMakeFiles/draw_ex06.dir/clean
 CMakeFiles/draw_ex07.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=41,42,43,44,45,46 "Built target draw_ex07"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=38,39,40,41,42,43 "Built target draw_ex07"
 .PHONY : CMakeFiles/draw_ex07.dir/all
 
 # Include target in all.
@@ -329,7 +329,7 @@ clean: CMakeFiles/draw_ex07.dir/clean
 CMakeFiles/draw_ex08.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=47,48,49,50,51,52,53 "Built target draw_ex08"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=44,45,46,47,48,49,50 "Built target draw_ex08"
 .PHONY : CMakeFiles/draw_ex08.dir/all
 
 # Include target in all.
@@ -366,7 +366,7 @@ clean: CMakeFiles/draw_ex08.dir/clean
 CMakeFiles/draw_ex09.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=54,55,56,57,58,59,60 "Built target draw_ex09"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=51,52,53,54,55,56 "Built target draw_ex09"
 .PHONY : CMakeFiles/draw_ex09.dir/all
 
 # Include target in all.
@@ -376,7 +376,7 @@ all: CMakeFiles/draw_ex09.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/draw_ex09.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 6
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex09.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/draw_ex09.dir/rule
@@ -403,7 +403,7 @@ clean: CMakeFiles/draw_ex09.dir/clean
 CMakeFiles/draw_ex10.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex10.dir\build.make CMakeFiles/draw_ex10.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex10.dir\build.make CMakeFiles/draw_ex10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=61,62,63,64,65,66 "Built target draw_ex10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=57,58,59,60,61,62 "Built target draw_ex10"
 .PHONY : CMakeFiles/draw_ex10.dir/all
 
 # Include target in all.
@@ -440,7 +440,7 @@ clean: CMakeFiles/draw_ex10.dir/clean
 CMakeFiles/draw_ex11.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex11.dir\build.make CMakeFiles/draw_ex11.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex11.dir\build.make CMakeFiles/draw_ex11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=67,68,69,70,71,72,73 "Built target draw_ex11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=63,64,65,66,67,68 "Built target draw_ex11"
 .PHONY : CMakeFiles/draw_ex11.dir/all
 
 # Include target in all.
@@ -450,7 +450,7 @@ all: CMakeFiles/draw_ex11.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/draw_ex11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 6
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex11.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/draw_ex11.dir/rule
@@ -477,7 +477,7 @@ clean: CMakeFiles/draw_ex11.dir/clean
 CMakeFiles/draw_ex12.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex12.dir\build.make CMakeFiles/draw_ex12.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex12.dir\build.make CMakeFiles/draw_ex12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=74,75,76,77,78,79,80 "Built target draw_ex12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=69,70,71,72,73,74,75 "Built target draw_ex12"
 .PHONY : CMakeFiles/draw_ex12.dir/all
 
 # Include target in all.
@@ -514,7 +514,7 @@ clean: CMakeFiles/draw_ex12.dir/clean
 CMakeFiles/draw_ex13.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex13.dir\build.make CMakeFiles/draw_ex13.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex13.dir\build.make CMakeFiles/draw_ex13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=81,82,83,84,85,86 "Built target draw_ex13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=76,77,78,79,80,81 "Built target draw_ex13"
 .PHONY : CMakeFiles/draw_ex13.dir/all
 
 # Include target in all.
@@ -551,7 +551,7 @@ clean: CMakeFiles/draw_ex13.dir/clean
 CMakeFiles/draw_ex14.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex14.dir\build.make CMakeFiles/draw_ex14.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex14.dir\build.make CMakeFiles/draw_ex14.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=87,88,89,90,91,92,93 "Built target draw_ex14"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=82,83,84,85,86,87 "Built target draw_ex14"
 .PHONY : CMakeFiles/draw_ex14.dir/all
 
 # Include target in all.
@@ -561,7 +561,7 @@ all: CMakeFiles/draw_ex14.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/draw_ex14.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 6
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex14.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/draw_ex14.dir/rule
@@ -588,7 +588,7 @@ clean: CMakeFiles/draw_ex14.dir/clean
 CMakeFiles/draw_ex15.dir/all:
 	$(MAKE) -f CMakeFiles\draw_ex15.dir\build.make CMakeFiles/draw_ex15.dir/depend
 	$(MAKE) -f CMakeFiles\draw_ex15.dir\build.make CMakeFiles/draw_ex15.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=94,95,96,97,98,99,100 "Built target draw_ex15"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=88,89,90,91,92,93 "Built target draw_ex15"
 .PHONY : CMakeFiles/draw_ex15.dir/all
 
 # Include target in all.
@@ -598,7 +598,7 @@ all: CMakeFiles/draw_ex15.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/draw_ex15.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 6
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex15.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/draw_ex15.dir/rule
@@ -615,6 +615,43 @@ CMakeFiles/draw_ex15.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/draw_ex15.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/draw_ex16.dir
+
+# All Build rule for target.
+CMakeFiles/draw_ex16.dir/all:
+	$(MAKE) -f CMakeFiles\draw_ex16.dir\build.make CMakeFiles/draw_ex16.dir/depend
+	$(MAKE) -f CMakeFiles\draw_ex16.dir\build.make CMakeFiles/draw_ex16.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles --progress-num=94,95,96,97,98,99,100 "Built target draw_ex16"
+.PHONY : CMakeFiles/draw_ex16.dir/all
+
+# Include target in all.
+all: CMakeFiles/draw_ex16.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/draw_ex16.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 7
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex16.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-3\00_DrawSetup\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/draw_ex16.dir/rule
+
+# Convenience name for target.
+draw_ex16: CMakeFiles/draw_ex16.dir/rule
+
+.PHONY : draw_ex16
+
+# clean rule for target.
+CMakeFiles/draw_ex16.dir/clean:
+	$(MAKE) -f CMakeFiles\draw_ex16.dir\build.make CMakeFiles/draw_ex16.dir/clean
+.PHONY : CMakeFiles/draw_ex16.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/draw_ex16.dir/clean
 
 .PHONY : clean
 
