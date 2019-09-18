@@ -187,6 +187,45 @@ draw_ex06/fast:
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/build
 .PHONY : draw_ex06/fast
 
+#=============================================================================
+# Target rules for targets named draw_ex07
+
+# Build rule for target.
+draw_ex07: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 draw_ex07
+.PHONY : draw_ex07
+
+# fast build rule for target.
+draw_ex07/fast:
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/build
+.PHONY : draw_ex07/fast
+
+#=============================================================================
+# Target rules for targets named draw_ex08
+
+# Build rule for target.
+draw_ex08: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 draw_ex08
+.PHONY : draw_ex08
+
+# fast build rule for target.
+draw_ex08/fast:
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/build
+.PHONY : draw_ex08/fast
+
+#=============================================================================
+# Target rules for targets named draw_ex09
+
+# Build rule for target.
+draw_ex09: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 draw_ex09
+.PHONY : draw_ex09
+
+# fast build rule for target.
+draw_ex09/fast:
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/build
+.PHONY : draw_ex09/fast
+
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.obj: D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.obj
@@ -199,6 +238,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.i: D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
@@ -213,6 +255,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.s: D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
@@ -227,6 +272,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.obj: D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
@@ -241,6 +289,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.i: D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
@@ -255,6 +306,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.s: D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
@@ -269,6 +323,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.obj: D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
@@ -283,6 +340,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.i: D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
@@ -297,6 +357,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.s: D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
@@ -311,6 +374,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.obj: D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
@@ -325,6 +391,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.i: D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
@@ -339,6 +408,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.s: D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
@@ -353,6 +425,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
 
 draw.obj: draw.cpp.obj
@@ -517,6 +592,87 @@ draw_ex06.cpp.s:
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/draw_ex06.cpp.s
 .PHONY : draw_ex06.cpp.s
 
+draw_ex07.obj: draw_ex07.cpp.obj
+
+.PHONY : draw_ex07.obj
+
+# target to build an object file
+draw_ex07.cpp.obj:
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/draw_ex07.cpp.obj
+.PHONY : draw_ex07.cpp.obj
+
+draw_ex07.i: draw_ex07.cpp.i
+
+.PHONY : draw_ex07.i
+
+# target to preprocess a source file
+draw_ex07.cpp.i:
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/draw_ex07.cpp.i
+.PHONY : draw_ex07.cpp.i
+
+draw_ex07.s: draw_ex07.cpp.s
+
+.PHONY : draw_ex07.s
+
+# target to generate assembly for a file
+draw_ex07.cpp.s:
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/draw_ex07.cpp.s
+.PHONY : draw_ex07.cpp.s
+
+draw_ex08.obj: draw_ex08.cpp.obj
+
+.PHONY : draw_ex08.obj
+
+# target to build an object file
+draw_ex08.cpp.obj:
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/draw_ex08.cpp.obj
+.PHONY : draw_ex08.cpp.obj
+
+draw_ex08.i: draw_ex08.cpp.i
+
+.PHONY : draw_ex08.i
+
+# target to preprocess a source file
+draw_ex08.cpp.i:
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/draw_ex08.cpp.i
+.PHONY : draw_ex08.cpp.i
+
+draw_ex08.s: draw_ex08.cpp.s
+
+.PHONY : draw_ex08.s
+
+# target to generate assembly for a file
+draw_ex08.cpp.s:
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/draw_ex08.cpp.s
+.PHONY : draw_ex08.cpp.s
+
+draw_ex09.obj: draw_ex09.cpp.obj
+
+.PHONY : draw_ex09.obj
+
+# target to build an object file
+draw_ex09.cpp.obj:
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/draw_ex09.cpp.obj
+.PHONY : draw_ex09.cpp.obj
+
+draw_ex09.i: draw_ex09.cpp.i
+
+.PHONY : draw_ex09.i
+
+# target to preprocess a source file
+draw_ex09.cpp.i:
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/draw_ex09.cpp.i
+.PHONY : draw_ex09.cpp.i
+
+draw_ex09.s: draw_ex09.cpp.s
+
+.PHONY : draw_ex09.s
+
+# target to generate assembly for a file
+draw_ex09.cpp.s:
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/draw_ex09.cpp.s
+.PHONY : draw_ex09.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -529,6 +685,9 @@ main.cpp.obj:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/main.cpp.obj
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/main.cpp.obj
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -543,6 +702,9 @@ main.cpp.i:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -557,6 +719,9 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\draw_ex04.dir\build.make CMakeFiles/draw_ex04.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles\draw_ex05.dir\build.make CMakeFiles/draw_ex05.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles\draw_ex06.dir\build.make CMakeFiles/draw_ex06.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\draw_ex07.dir\build.make CMakeFiles/draw_ex07.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\draw_ex08.dir\build.make CMakeFiles/draw_ex08.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\draw_ex09.dir\build.make CMakeFiles/draw_ex09.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -567,12 +732,15 @@ help:
 	@echo ... depend
 	@echo ... draw_ex02
 	@echo ... draw
-	@echo ... edit_cache
 	@echo ... draw_ex03
-	@echo ... rebuild_cache
 	@echo ... draw_ex04
 	@echo ... draw_ex05
 	@echo ... draw_ex06
+	@echo ... draw_ex07
+	@echo ... draw_ex08
+	@echo ... draw_ex09
+	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.obj
 	@echo ... D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.i
 	@echo ... D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.s
@@ -603,6 +771,15 @@ help:
 	@echo ... draw_ex06.obj
 	@echo ... draw_ex06.i
 	@echo ... draw_ex06.s
+	@echo ... draw_ex07.obj
+	@echo ... draw_ex07.i
+	@echo ... draw_ex07.s
+	@echo ... draw_ex08.obj
+	@echo ... draw_ex08.i
+	@echo ... draw_ex08.s
+	@echo ... draw_ex09.obj
+	@echo ... draw_ex09.i
+	@echo ... draw_ex09.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
