@@ -717,6 +717,56 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="draw_ex15">
+				<Option output="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/draw_ex15.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/SDL2/SDL2-2.0.8/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/SDL2/SDL2_image-2.0.3/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/SDL2/SDL2_ttf-2.0.14/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/SDL2/SDL2_plugins/gfx/inc"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 draw_ex15"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="draw_ex15/fast">
+				<Option output="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/draw_ex15.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/SDL2/SDL2-2.0.8/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/SDL2/SDL2_image-2.0.3/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/SDL2/SDL2_ttf-2.0.14/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/SDL2/SDL2_plugins/gfx/inc"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 draw_ex15/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/cmake-build-debug"/>
 				<Option type="4"/>
@@ -783,6 +833,9 @@
 		<Unit filename="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/draw_ex14.cpp">
 			<Option target="draw_ex14"/>
 		</Unit>
+		<Unit filename="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/draw_ex15.cpp">
+			<Option target="draw_ex15"/>
+		</Unit>
 		<Unit filename="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/main.cpp">
 			<Option target="draw_ex02"/>
 			<Option target="draw"/>
@@ -798,6 +851,7 @@
 			<Option target="draw_ex12"/>
 			<Option target="draw_ex13"/>
 			<Option target="draw_ex14"/>
+			<Option target="draw_ex15"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/inc/SDL2_framerate.h">
 			<Option target="draw_ex02"/>
@@ -814,6 +868,7 @@
 			<Option target="draw_ex12"/>
 			<Option target="draw_ex13"/>
 			<Option target="draw_ex14"/>
+			<Option target="draw_ex15"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/inc/SDL2_gfxPrimitives.h">
 			<Option target="draw_ex02"/>
@@ -830,6 +885,7 @@
 			<Option target="draw_ex12"/>
 			<Option target="draw_ex13"/>
 			<Option target="draw_ex14"/>
+			<Option target="draw_ex15"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/inc/SDL2_gfxPrimitives_font.h">
 			<Option target="draw_ex02"/>
@@ -846,6 +902,7 @@
 			<Option target="draw_ex12"/>
 			<Option target="draw_ex13"/>
 			<Option target="draw_ex14"/>
+			<Option target="draw_ex15"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/inc/SDL2_imageFilter.h">
 			<Option target="draw_ex02"/>
@@ -862,6 +919,7 @@
 			<Option target="draw_ex12"/>
 			<Option target="draw_ex13"/>
 			<Option target="draw_ex14"/>
+			<Option target="draw_ex15"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/inc/SDL2_rotozoom.h">
 			<Option target="draw_ex02"/>
@@ -878,6 +936,7 @@
 			<Option target="draw_ex12"/>
 			<Option target="draw_ex13"/>
 			<Option target="draw_ex14"/>
+			<Option target="draw_ex15"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c">
 			<Option target="draw_ex02"/>
@@ -894,6 +953,7 @@
 			<Option target="draw_ex12"/>
 			<Option target="draw_ex13"/>
 			<Option target="draw_ex14"/>
+			<Option target="draw_ex15"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c">
 			<Option target="draw_ex02"/>
@@ -910,6 +970,7 @@
 			<Option target="draw_ex12"/>
 			<Option target="draw_ex13"/>
 			<Option target="draw_ex14"/>
+			<Option target="draw_ex15"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c">
 			<Option target="draw_ex02"/>
@@ -926,6 +987,7 @@
 			<Option target="draw_ex12"/>
 			<Option target="draw_ex13"/>
 			<Option target="draw_ex14"/>
+			<Option target="draw_ex15"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c">
 			<Option target="draw_ex02"/>
@@ -942,6 +1004,7 @@
 			<Option target="draw_ex12"/>
 			<Option target="draw_ex13"/>
 			<Option target="draw_ex14"/>
+			<Option target="draw_ex15"/>
 		</Unit>
 		<Unit filename="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-3/00_DrawSetup/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

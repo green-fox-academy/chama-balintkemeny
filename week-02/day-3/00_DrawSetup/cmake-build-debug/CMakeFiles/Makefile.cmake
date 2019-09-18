@@ -77,4 +77,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/draw_ex12.dir/DependInfo.cmake"
   "CMakeFiles/draw_ex13.dir/DependInfo.cmake"
   "CMakeFiles/draw_ex14.dir/DependInfo.cmake"
+  "CMakeFiles/draw_ex15.dir/DependInfo.cmake"
   )
