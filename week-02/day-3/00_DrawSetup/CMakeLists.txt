@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(SDL2_ROOT_PATH D:/SDL2)
 
-set(EXECUTABLES "draw;draw_ex02;draw_ex03;draw_ex04")
+set(EXECUTABLES "draw;draw_ex02;draw_ex03;draw_ex04;draw_ex05;draw_ex06")
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 IF(WIN32)
