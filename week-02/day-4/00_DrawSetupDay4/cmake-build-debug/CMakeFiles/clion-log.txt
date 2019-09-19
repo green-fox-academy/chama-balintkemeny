@@ -1,0 +1,4 @@
+"D:\Programs\CLion 2019.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-4\00_DrawSetupDay4
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug
