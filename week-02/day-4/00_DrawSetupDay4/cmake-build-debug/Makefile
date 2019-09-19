@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named draw_ex17_superHexagon
+
+# Build rule for target.
+draw_ex17_superHexagon: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 draw_ex17_superHexagon
+.PHONY : draw_ex17_superHexagon
+
+# fast build rule for target.
+draw_ex17_superHexagon/fast:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/build
+.PHONY : draw_ex17_superHexagon/fast
+
+#=============================================================================
 # Target rules for targets named draw_ex18_triangle
 
 # Build rule for target.
@@ -123,17 +136,17 @@ draw_ex18_triangle/fast:
 .PHONY : draw_ex18_triangle/fast
 
 #=============================================================================
-# Target rules for targets named draw_ex17
+# Target rules for targets named draw_ex20_envelopeStar
 
 # Build rule for target.
-draw_ex17: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 draw_ex17
-.PHONY : draw_ex17
+draw_ex20_envelopeStar: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 draw_ex20_envelopeStar
+.PHONY : draw_ex20_envelopeStar
 
 # fast build rule for target.
-draw_ex17/fast:
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/build
-.PHONY : draw_ex17/fast
+draw_ex20_envelopeStar/fast:
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/build
+.PHONY : draw_ex20_envelopeStar/fast
 
 #=============================================================================
 # Target rules for targets named draw_ex19_linePlay
@@ -154,8 +167,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.obj: D_/SDL2/SDL2_plugins/gfx/src/SD
 
 # target to build an object file
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 
@@ -165,8 +179,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.i: D_/SDL2/SDL2_plugins/gfx/src/SDL2
 
 # target to preprocess a source file
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
 
@@ -176,8 +191,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.s: D_/SDL2/SDL2_plugins/gfx/src/SDL2
 
 # target to generate assembly for a file
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
 
@@ -187,8 +203,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.obj: D_/SDL2/SDL2_plugins/gfx/sr
 
 # target to build an object file
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
 
@@ -198,8 +215,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.i: D_/SDL2/SDL2_plugins/gfx/src/
 
 # target to preprocess a source file
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
 
@@ -209,8 +227,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.s: D_/SDL2/SDL2_plugins/gfx/src/
 
 # target to generate assembly for a file
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
 
@@ -220,8 +239,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.obj: D_/SDL2/SDL2_plugins/gfx/src/
 
 # target to build an object file
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
 
@@ -231,8 +251,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.i: D_/SDL2/SDL2_plugins/gfx/src/SD
 
 # target to preprocess a source file
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
 
@@ -242,8 +263,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.s: D_/SDL2/SDL2_plugins/gfx/src/SD
 
 # target to generate assembly for a file
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
 
@@ -253,8 +275,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.obj: D_/SDL2/SDL2_plugins/gfx/src/SDL
 
 # target to build an object file
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
 
@@ -264,8 +287,9 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.i: D_/SDL2/SDL2_plugins/gfx/src/SDL2_
 
 # target to preprocess a source file
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
 
@@ -275,37 +299,38 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.s: D_/SDL2/SDL2_plugins/gfx/src/SDL2_
 
 # target to generate assembly for a file
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
 
-draw_ex17.obj: draw_ex17.cpp.obj
+draw_ex17_superHexagon.obj: draw_ex17_superHexagon.cpp.obj
 
-.PHONY : draw_ex17.obj
+.PHONY : draw_ex17_superHexagon.obj
 
 # target to build an object file
-draw_ex17.cpp.obj:
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/draw_ex17.cpp.obj
-.PHONY : draw_ex17.cpp.obj
+draw_ex17_superHexagon.cpp.obj:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/draw_ex17_superHexagon.cpp.obj
+.PHONY : draw_ex17_superHexagon.cpp.obj
 
-draw_ex17.i: draw_ex17.cpp.i
+draw_ex17_superHexagon.i: draw_ex17_superHexagon.cpp.i
 
-.PHONY : draw_ex17.i
+.PHONY : draw_ex17_superHexagon.i
 
 # target to preprocess a source file
-draw_ex17.cpp.i:
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/draw_ex17.cpp.i
-.PHONY : draw_ex17.cpp.i
+draw_ex17_superHexagon.cpp.i:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/draw_ex17_superHexagon.cpp.i
+.PHONY : draw_ex17_superHexagon.cpp.i
 
-draw_ex17.s: draw_ex17.cpp.s
+draw_ex17_superHexagon.s: draw_ex17_superHexagon.cpp.s
 
-.PHONY : draw_ex17.s
+.PHONY : draw_ex17_superHexagon.s
 
 # target to generate assembly for a file
-draw_ex17.cpp.s:
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/draw_ex17.cpp.s
-.PHONY : draw_ex17.cpp.s
+draw_ex17_superHexagon.cpp.s:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/draw_ex17_superHexagon.cpp.s
+.PHONY : draw_ex17_superHexagon.cpp.s
 
 draw_ex18_triangle.obj: draw_ex18_triangle.cpp.obj
 
@@ -361,14 +386,42 @@ draw_ex19_linePlay.cpp.s:
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/draw_ex19_linePlay.cpp.s
 .PHONY : draw_ex19_linePlay.cpp.s
 
+draw_ex20_envelopeStar.obj: draw_ex20_envelopeStar.cpp.obj
+
+.PHONY : draw_ex20_envelopeStar.obj
+
+# target to build an object file
+draw_ex20_envelopeStar.cpp.obj:
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/draw_ex20_envelopeStar.cpp.obj
+.PHONY : draw_ex20_envelopeStar.cpp.obj
+
+draw_ex20_envelopeStar.i: draw_ex20_envelopeStar.cpp.i
+
+.PHONY : draw_ex20_envelopeStar.i
+
+# target to preprocess a source file
+draw_ex20_envelopeStar.cpp.i:
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/draw_ex20_envelopeStar.cpp.i
+.PHONY : draw_ex20_envelopeStar.cpp.i
+
+draw_ex20_envelopeStar.s: draw_ex20_envelopeStar.cpp.s
+
+.PHONY : draw_ex20_envelopeStar.s
+
+# target to generate assembly for a file
+draw_ex20_envelopeStar.cpp.s:
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/draw_ex20_envelopeStar.cpp.s
+.PHONY : draw_ex20_envelopeStar.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/main.cpp.obj
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/main.cpp.obj
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/main.cpp.obj
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
@@ -378,8 +431,9 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/main.cpp.i
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -389,8 +443,9 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/main.cpp.s
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -400,10 +455,11 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... draw_ex17_superHexagon
 	@echo ... rebuild_cache
 	@echo ... draw_ex18_triangle
-	@echo ... draw_ex17
 	@echo ... edit_cache
+	@echo ... draw_ex20_envelopeStar
 	@echo ... draw_ex19_linePlay
 	@echo ... D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.obj
 	@echo ... D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.i
@@ -417,15 +473,18 @@ help:
 	@echo ... D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.obj
 	@echo ... D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.i
 	@echo ... D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.s
-	@echo ... draw_ex17.obj
-	@echo ... draw_ex17.i
-	@echo ... draw_ex17.s
+	@echo ... draw_ex17_superHexagon.obj
+	@echo ... draw_ex17_superHexagon.i
+	@echo ... draw_ex17_superHexagon.s
 	@echo ... draw_ex18_triangle.obj
 	@echo ... draw_ex18_triangle.i
 	@echo ... draw_ex18_triangle.s
 	@echo ... draw_ex19_linePlay.obj
 	@echo ... draw_ex19_linePlay.i
 	@echo ... draw_ex19_linePlay.s
+	@echo ... draw_ex20_envelopeStar.obj
+	@echo ... draw_ex20_envelopeStar.i
+	@echo ... draw_ex20_envelopeStar.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

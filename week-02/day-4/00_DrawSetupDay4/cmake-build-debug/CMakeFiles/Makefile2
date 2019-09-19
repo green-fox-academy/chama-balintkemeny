@@ -64,6 +64,43 @@ CMAKE_SOURCE_DIR = D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-4\
 CMAKE_BINARY_DIR = D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-4\00_DrawSetupDay4\cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/draw_ex17_superHexagon.dir
+
+# All Build rule for target.
+CMakeFiles/draw_ex17_superHexagon.dir/all:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/depend
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-4\00_DrawSetupDay4\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target draw_ex17_superHexagon"
+.PHONY : CMakeFiles/draw_ex17_superHexagon.dir/all
+
+# Include target in all.
+all: CMakeFiles/draw_ex17_superHexagon.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/draw_ex17_superHexagon.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-4\00_DrawSetupDay4\cmake-build-debug\CMakeFiles 7
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex17_superHexagon.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-4\00_DrawSetupDay4\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/draw_ex17_superHexagon.dir/rule
+
+# Convenience name for target.
+draw_ex17_superHexagon: CMakeFiles/draw_ex17_superHexagon.dir/rule
+
+.PHONY : draw_ex17_superHexagon
+
+# clean rule for target.
+CMakeFiles/draw_ex17_superHexagon.dir/clean:
+	$(MAKE) -f CMakeFiles\draw_ex17_superHexagon.dir\build.make CMakeFiles/draw_ex17_superHexagon.dir/clean
+.PHONY : CMakeFiles/draw_ex17_superHexagon.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/draw_ex17_superHexagon.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/draw_ex18_triangle.dir
 
 # All Build rule for target.
@@ -101,39 +138,39 @@ clean: CMakeFiles/draw_ex18_triangle.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/draw_ex17.dir
+# Target rules for target CMakeFiles/draw_ex20_envelopeStar.dir
 
 # All Build rule for target.
-CMakeFiles/draw_ex17.dir/all:
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/depend
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-4\00_DrawSetupDay4\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target draw_ex17"
-.PHONY : CMakeFiles/draw_ex17.dir/all
+CMakeFiles/draw_ex20_envelopeStar.dir/all:
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/depend
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-4\00_DrawSetupDay4\cmake-build-debug\CMakeFiles --progress-num=22,23,24,25,26,27,28 "Built target draw_ex20_envelopeStar"
+.PHONY : CMakeFiles/draw_ex20_envelopeStar.dir/all
 
 # Include target in all.
-all: CMakeFiles/draw_ex17.dir/all
+all: CMakeFiles/draw_ex20_envelopeStar.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/draw_ex17.dir/rule: cmake_check_build_system
+CMakeFiles/draw_ex20_envelopeStar.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-4\00_DrawSetupDay4\cmake-build-debug\CMakeFiles 7
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex17.dir/all
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex20_envelopeStar.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-4\00_DrawSetupDay4\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/draw_ex17.dir/rule
+.PHONY : CMakeFiles/draw_ex20_envelopeStar.dir/rule
 
 # Convenience name for target.
-draw_ex17: CMakeFiles/draw_ex17.dir/rule
+draw_ex20_envelopeStar: CMakeFiles/draw_ex20_envelopeStar.dir/rule
 
-.PHONY : draw_ex17
-
-# clean rule for target.
-CMakeFiles/draw_ex17.dir/clean:
-	$(MAKE) -f CMakeFiles\draw_ex17.dir\build.make CMakeFiles/draw_ex17.dir/clean
-.PHONY : CMakeFiles/draw_ex17.dir/clean
+.PHONY : draw_ex20_envelopeStar
 
 # clean rule for target.
-clean: CMakeFiles/draw_ex17.dir/clean
+CMakeFiles/draw_ex20_envelopeStar.dir/clean:
+	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/clean
+.PHONY : CMakeFiles/draw_ex20_envelopeStar.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/draw_ex20_envelopeStar.dir/clean
 
 .PHONY : clean
 

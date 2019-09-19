@@ -3,7 +3,6 @@
 //
 
 #include "draw.h"
-#include <cmath>
 
 void draw(SDL_Renderer* gRenderer) {
     int startA[2] = {0, 0};

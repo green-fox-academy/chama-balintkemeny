@@ -63,7 +63,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/draw_ex17_superHexagon.dir/DependInfo.cmake"
   "CMakeFiles/draw_ex18_triangle.dir/DependInfo.cmake"
-  "CMakeFiles/draw_ex17.dir/DependInfo.cmake"
+  "CMakeFiles/draw_ex20_envelopeStar.dir/DependInfo.cmake"
   "CMakeFiles/draw_ex19_linePlay.dir/DependInfo.cmake"
   )

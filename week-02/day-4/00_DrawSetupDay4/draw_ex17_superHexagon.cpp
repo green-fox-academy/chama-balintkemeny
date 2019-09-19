@@ -1,6 +1,6 @@
 //
 // Created by Kemény Bálint on 2019. 09. 18..
-//
+// SuperHexagon
 #include "draw.h"
 #include <cmath>
 
