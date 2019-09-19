@@ -212,6 +212,43 @@ clean: CMakeFiles/draw_ex19_linePlay.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/draw_ex21_linePlayQuarters.dir
+
+# All Build rule for target.
+CMakeFiles/draw_ex21_linePlayQuarters.dir/all:
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/depend
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-4\00_DrawSetupDay4\cmake-build-debug\CMakeFiles --progress-num=29,30,31,32,33,34,35 "Built target draw_ex21_linePlayQuarters"
+.PHONY : CMakeFiles/draw_ex21_linePlayQuarters.dir/all
+
+# Include target in all.
+all: CMakeFiles/draw_ex21_linePlayQuarters.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/draw_ex21_linePlayQuarters.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-4\00_DrawSetupDay4\cmake-build-debug\CMakeFiles 7
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/draw_ex21_linePlayQuarters.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GreenFoxAcademy\greenfox\chama-balintkemeny\week-02\day-4\00_DrawSetupDay4\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/draw_ex21_linePlayQuarters.dir/rule
+
+# Convenience name for target.
+draw_ex21_linePlayQuarters: CMakeFiles/draw_ex21_linePlayQuarters.dir/rule
+
+.PHONY : draw_ex21_linePlayQuarters
+
+# clean rule for target.
+CMakeFiles/draw_ex21_linePlayQuarters.dir/clean:
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/clean
+.PHONY : CMakeFiles/draw_ex21_linePlayQuarters.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/draw_ex21_linePlayQuarters.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

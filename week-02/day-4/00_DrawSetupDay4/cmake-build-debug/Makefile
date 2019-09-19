@@ -161,6 +161,19 @@ draw_ex19_linePlay/fast:
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/build
 .PHONY : draw_ex19_linePlay/fast
 
+#=============================================================================
+# Target rules for targets named draw_ex21_linePlayQuarters
+
+# Build rule for target.
+draw_ex21_linePlayQuarters: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 draw_ex21_linePlayQuarters
+.PHONY : draw_ex21_linePlayQuarters
+
+# fast build rule for target.
+draw_ex21_linePlayQuarters/fast:
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/build
+.PHONY : draw_ex21_linePlayQuarters/fast
+
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.obj: D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.obj
@@ -171,6 +184,7 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.obj
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.i: D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
@@ -183,6 +197,7 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.i
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.s: D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
@@ -195,6 +210,7 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c.s
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.obj: D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
@@ -207,6 +223,7 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.obj
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.i: D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
@@ -219,6 +236,7 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.i
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.s: D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
@@ -231,6 +249,7 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c.s
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.obj: D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
@@ -243,6 +262,7 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.obj
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.i: D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
@@ -255,6 +275,7 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.i
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.s: D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
@@ -267,6 +288,7 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c.s
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.obj: D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
@@ -279,6 +301,7 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.obj
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.i: D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
@@ -291,6 +314,7 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.i
 
 D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.s: D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
@@ -303,6 +327,7 @@ D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
 .PHONY : D_/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c.s
 
 draw_ex17_superHexagon.obj: draw_ex17_superHexagon.cpp.obj
@@ -413,6 +438,33 @@ draw_ex20_envelopeStar.cpp.s:
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/draw_ex20_envelopeStar.cpp.s
 .PHONY : draw_ex20_envelopeStar.cpp.s
 
+draw_ex21_linePlayQuarters.obj: draw_ex21_linePlayQuarters.cpp.obj
+
+.PHONY : draw_ex21_linePlayQuarters.obj
+
+# target to build an object file
+draw_ex21_linePlayQuarters.cpp.obj:
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/draw_ex21_linePlayQuarters.cpp.obj
+.PHONY : draw_ex21_linePlayQuarters.cpp.obj
+
+draw_ex21_linePlayQuarters.i: draw_ex21_linePlayQuarters.cpp.i
+
+.PHONY : draw_ex21_linePlayQuarters.i
+
+# target to preprocess a source file
+draw_ex21_linePlayQuarters.cpp.i:
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/draw_ex21_linePlayQuarters.cpp.i
+.PHONY : draw_ex21_linePlayQuarters.cpp.i
+
+draw_ex21_linePlayQuarters.s: draw_ex21_linePlayQuarters.cpp.s
+
+.PHONY : draw_ex21_linePlayQuarters.s
+
+# target to generate assembly for a file
+draw_ex21_linePlayQuarters.cpp.s:
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/draw_ex21_linePlayQuarters.cpp.s
+.PHONY : draw_ex21_linePlayQuarters.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -423,6 +475,7 @@ main.cpp.obj:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/main.cpp.obj
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/main.cpp.obj
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -435,6 +488,7 @@ main.cpp.i:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -447,6 +501,7 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\draw_ex18_triangle.dir\build.make CMakeFiles/draw_ex18_triangle.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles\draw_ex20_envelopeStar.dir\build.make CMakeFiles/draw_ex20_envelopeStar.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles\draw_ex19_linePlay.dir\build.make CMakeFiles/draw_ex19_linePlay.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\draw_ex21_linePlayQuarters.dir\build.make CMakeFiles/draw_ex21_linePlayQuarters.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -461,6 +516,7 @@ help:
 	@echo ... edit_cache
 	@echo ... draw_ex20_envelopeStar
 	@echo ... draw_ex19_linePlay
+	@echo ... draw_ex21_linePlayQuarters
 	@echo ... D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.obj
 	@echo ... D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.i
 	@echo ... D_/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.s
@@ -485,6 +541,9 @@ help:
 	@echo ... draw_ex20_envelopeStar.obj
 	@echo ... draw_ex20_envelopeStar.i
 	@echo ... draw_ex20_envelopeStar.s
+	@echo ... draw_ex21_linePlayQuarters.obj
+	@echo ... draw_ex21_linePlayQuarters.i
+	@echo ... draw_ex21_linePlayQuarters.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

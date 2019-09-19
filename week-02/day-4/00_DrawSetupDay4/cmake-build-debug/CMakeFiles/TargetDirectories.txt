@@ -4,3 +4,4 @@ D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cm
 D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/CMakeFiles/draw_ex20_envelopeStar.dir
 D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/CMakeFiles/draw_ex19_linePlay.dir
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/CMakeFiles/draw_ex21_linePlayQuarters.dir

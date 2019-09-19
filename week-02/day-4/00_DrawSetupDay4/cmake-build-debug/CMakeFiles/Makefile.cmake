@@ -67,4 +67,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/draw_ex18_triangle.dir/DependInfo.cmake"
   "CMakeFiles/draw_ex20_envelopeStar.dir/DependInfo.cmake"
   "CMakeFiles/draw_ex19_linePlay.dir/DependInfo.cmake"
+  "CMakeFiles/draw_ex21_linePlayQuarters.dir/DependInfo.cmake"
   )
