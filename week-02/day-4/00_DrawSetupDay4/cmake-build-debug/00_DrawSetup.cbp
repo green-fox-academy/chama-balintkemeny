@@ -137,6 +137,56 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="draw_ex19_linePlay">
+				<Option output="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/draw_ex19_linePlay.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/SDL2/SDL2-2.0.8/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/SDL2/SDL2_image-2.0.3/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/SDL2/SDL2_ttf-2.0.14/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/SDL2/SDL2_plugins/gfx/inc"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/Makefile&quot;  VERBOSE=1 draw_ex19_linePlay"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="draw_ex19_linePlay/fast">
+				<Option output="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/draw_ex19_linePlay.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/SDL2/SDL2-2.0.8/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/SDL2/SDL2_image-2.0.3/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/SDL2/SDL2_ttf-2.0.14/i686-w64-mingw32/include/SDL2"/>
+					<Add directory="D:/SDL2/SDL2_plugins/gfx/inc"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/Makefile&quot;  VERBOSE=1 draw_ex19_linePlay/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/draw_ex17.cpp">
 			<Option target="draw_ex17"/>
@@ -144,45 +194,58 @@
 		<Unit filename="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/draw_ex18_triangle.cpp">
 			<Option target="draw_ex18_triangle"/>
 		</Unit>
+		<Unit filename="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/draw_ex19_linePlay.cpp">
+			<Option target="draw_ex19_linePlay"/>
+		</Unit>
 		<Unit filename="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/main.cpp">
 			<Option target="draw_ex18_triangle"/>
 			<Option target="draw_ex17"/>
+			<Option target="draw_ex19_linePlay"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/inc/SDL2_framerate.h">
 			<Option target="draw_ex18_triangle"/>
 			<Option target="draw_ex17"/>
+			<Option target="draw_ex19_linePlay"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/inc/SDL2_gfxPrimitives.h">
 			<Option target="draw_ex18_triangle"/>
 			<Option target="draw_ex17"/>
+			<Option target="draw_ex19_linePlay"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/inc/SDL2_gfxPrimitives_font.h">
 			<Option target="draw_ex18_triangle"/>
 			<Option target="draw_ex17"/>
+			<Option target="draw_ex19_linePlay"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/inc/SDL2_imageFilter.h">
 			<Option target="draw_ex18_triangle"/>
 			<Option target="draw_ex17"/>
+			<Option target="draw_ex19_linePlay"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/inc/SDL2_rotozoom.h">
 			<Option target="draw_ex18_triangle"/>
 			<Option target="draw_ex17"/>
+			<Option target="draw_ex19_linePlay"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/src/SDL2_framerate.c">
 			<Option target="draw_ex18_triangle"/>
 			<Option target="draw_ex17"/>
+			<Option target="draw_ex19_linePlay"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/src/SDL2_gfxPrimitives.c">
 			<Option target="draw_ex18_triangle"/>
 			<Option target="draw_ex17"/>
+			<Option target="draw_ex19_linePlay"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/src/SDL2_imageFilter.c">
 			<Option target="draw_ex18_triangle"/>
 			<Option target="draw_ex17"/>
+			<Option target="draw_ex19_linePlay"/>
 		</Unit>
 		<Unit filename="D:/SDL2/SDL2_plugins/gfx/src/SDL2_rotozoom.c">
 			<Option target="draw_ex18_triangle"/>
 			<Option target="draw_ex17"/>
+			<Option target="draw_ex19_linePlay"/>
 		</Unit>
 		<Unit filename="D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

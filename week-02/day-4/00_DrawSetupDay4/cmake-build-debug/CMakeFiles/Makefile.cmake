@@ -65,4 +65,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/draw_ex18_triangle.dir/DependInfo.cmake"
   "CMakeFiles/draw_ex17.dir/DependInfo.cmake"
+  "CMakeFiles/draw_ex19_linePlay.dir/DependInfo.cmake"
   )
