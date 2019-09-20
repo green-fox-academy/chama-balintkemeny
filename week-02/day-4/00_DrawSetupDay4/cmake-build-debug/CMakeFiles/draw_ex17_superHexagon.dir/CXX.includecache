@@ -16,14 +16,6 @@ D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/dr
 cmath
 -
 
-D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/main.cpp
-iostream
--
-SDL.h
--
-draw.h
-D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-02/day-4/00_DrawSetupDay4/draw.h
-
 D:/SDL2/SDL2-2.0.8/i686-w64-mingw32/include/SDL2/SDL.h
 SDL_main.h
 D:/SDL2/SDL2-2.0.8/i686-w64-mingw32/include/SDL2/SDL_main.h
