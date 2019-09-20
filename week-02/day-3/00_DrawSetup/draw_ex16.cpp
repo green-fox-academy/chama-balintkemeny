@@ -5,13 +5,13 @@
 #include <cstdlib>
 #include <ctime>
 
-
 int starPos[10][2];
 int *ptrStarPos = &starPos[0][0];
-int starSize = 5;
+int starSize = 7;
 bool fill = false;
 
-void fillStarPos () {
+void fillStarPos ()
+{
     srand (time(NULL));
     for (int i = 0; i < 10; ++i) {
         *(ptrStarPos + 2 * i) = rand() % (SCREEN_WIDTH - starSize + 1);
@@ -21,8 +21,8 @@ void fillStarPos () {
 }
 
 
-void draw(SDL_Renderer* gRenderer) {
-
+void draw(SDL_Renderer* gRenderer)
+{
     if (!fill) {
         fillStarPos();
     }
@@ -39,6 +39,5 @@ void draw(SDL_Renderer* gRenderer) {
         SDL_Rect fillRect2 = {starPos[i][0], starPos[i][1], starSize, starSize};
         SDL_RenderFillRect(gRenderer, &fillRect2);
     }
-
 }
 
