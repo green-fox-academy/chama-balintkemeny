@@ -14,6 +14,8 @@ bool copyFile (std::string pathIn, std::string pathOut) {
             std::getline(inputFile, line);
             outputFile << line << std::endl;
         }
+        inputFile.close();
+        outputFile.close();
         return  true;
     } else {
         return false;

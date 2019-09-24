@@ -17,6 +17,7 @@ int main() {
             }
             std::cout << std::endl;
         }
+        inputStream.close();
     } catch (std::string& errorMsg) {
         std::cout << errorMsg << std::endl;
     }

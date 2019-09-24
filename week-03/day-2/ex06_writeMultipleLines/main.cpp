@@ -10,6 +10,7 @@ void writeMultipleLines (std::string path, std::string word, int wCount) {
     for (int i = 0; i < wCount; ++i) {
         outputFile << word << std::endl;
     }
+    outputFile.close();
 }
 
 int main() {
