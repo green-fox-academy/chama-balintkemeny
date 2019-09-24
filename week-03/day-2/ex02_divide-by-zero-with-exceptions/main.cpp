@@ -13,7 +13,7 @@ int main() {
     std::cin >> x;
     try {
         divideTen(x);
-    } catch (std::string errorMsg) {
+    } catch (std::string& errorMsg) {
         std::cout << errorMsg << std::endl;
     }
     return 0;
