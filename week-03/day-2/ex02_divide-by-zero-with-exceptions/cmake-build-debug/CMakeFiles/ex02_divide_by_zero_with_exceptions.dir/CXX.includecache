@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-03/day-2/ex02_divide-by-zero-with-exceptions/main.cpp
+iostream
+-
+
