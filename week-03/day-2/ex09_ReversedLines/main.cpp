@@ -12,8 +12,8 @@ int main() {
         }
         while (std::getline(inputStream, textLine)) {
             int numChars = textLine.length();
-            for (int i = 0; i < numChars; i+=2) {
-                std::cout << textLine[i];
+            for (int i = 0; i < numChars; ++i) {
+                std::cout << textLine[numChars - (i + 1)];
             }
             std::cout << std::endl;
         }
