@@ -1,0 +1,3 @@
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-03/day-2/ex10_reversedOrder/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-03/day-2/ex10_reversedOrder/cmake-build-debug/CMakeFiles/ex10_reversedOrder.dir
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-03/day-2/ex10_reversedOrder/cmake-build-debug/CMakeFiles/rebuild_cache.dir
