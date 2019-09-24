@@ -1,0 +1,3 @@
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-03/day-2/ex05_writeSingleLine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-03/day-2/ex05_writeSingleLine/cmake-build-debug/CMakeFiles/ex05_writeSingleLine.dir
+D:/GreenFoxAcademy/greenfox/chama-balintkemeny/week-03/day-2/ex05_writeSingleLine/cmake-build-debug/CMakeFiles/edit_cache.dir
