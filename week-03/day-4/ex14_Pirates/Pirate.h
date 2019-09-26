@@ -7,7 +7,19 @@
 
 
 class Pirate {
+public:
+    Pirate();
+    void drinkSomeRum();
+    void howsItGoingMate();
+    void awaken();
+    void die();
+    void brawl(Pirate* otherPirate);
+    void getStatus();
 
+private:
+    bool _isDead;
+    bool _isUnconscious;
+    int _intoxicationLevel;
 };
 
 
