@@ -11,6 +11,7 @@
 class Farm {
 public:
     explicit Farm(int capacity);
+    ~Farm();
     void addAnimal(Animal *animalPointer);
     void breed();
     void feed(int index);

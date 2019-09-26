@@ -54,3 +54,9 @@ void Farm::slaughter() {
 int Farm::numberOfAnimals() {
     return _animalList.size();
 }
+
+Farm::~Farm() {
+    for (Animal* i : _animalList) {
+        delete i;
+    }
+}

@@ -30,6 +30,6 @@ int main() {
 
     testBlog.updatePost(1, &post3);
     testBlog.deletePost(2);
-    
+
     return 0;
 }
