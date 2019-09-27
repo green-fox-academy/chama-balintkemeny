@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(SDL2_ROOT_PATH D:/SDL2)
 
-set(EXECUTABLES "FractalTriangle;FractalCircles")
+set(EXECUTABLES "FractalTriangle;FractalCircles;FractalSierpinsky")
 set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 IF(WIN32)
