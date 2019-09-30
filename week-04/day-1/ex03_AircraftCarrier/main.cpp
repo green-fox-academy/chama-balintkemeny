@@ -20,5 +20,11 @@ int main() {
 
     std::cout << testCarrier.getStatus();
 
+    Carrier enemyCarrier(1000, 100);
+    testCarrier.fight(enemyCarrier);
+
+    std::cout << testCarrier.getStatus() << std::endl;
+    std::cout << enemyCarrier.getStatus() << std::endl;
+
     return 0;
 }

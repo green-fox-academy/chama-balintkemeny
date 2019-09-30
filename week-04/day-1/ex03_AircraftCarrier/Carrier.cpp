@@ -43,19 +43,36 @@ std::string Carrier::getStatus() {
     std::string output;
     if (_hitPoints > 0) {
         output = "HP: " + std::to_string(_hitPoints) + ", Aircraft count: " + std::to_string(_aircrafts.size())
-                 + ", Ammo storage: " + std::to_string(_ammoStorage) + ", Total damage: ";
-        int totalDamage = 0;
-        for (Aircraft* a : _aircrafts) {
-            totalDamage += a->getDamage();
-        }
-        output += std::to_string(totalDamage);
+                 + ", Ammo storage: " + std::to_string(_ammoStorage) + ", Total damage: " + std::to_string(getDamage())
+                 + "\n";
 
         for (Aircraft* b : _aircrafts) {
-            output += "\n" + b->getStatus();
+            output += b->getStatus() + "\n";
         }
     } else {
         output = "It's dead Jim! :(";
     }
 
     return output;
+}
+
+int Carrier::getDamage() {
+    int totalDamage = 0;
+    for (Aircraft* a : _aircrafts) {
+        totalDamage += a->getDamage();
+    }
+    return totalDamage;
+}
+
+void Carrier::fight(Carrier &otherCarrier) {
+    int dmg = 0;
+    for (Aircraft* a : _aircrafts) {
+        dmg += a->fight();
+    }
+    otherCarrier._hitPoints -= dmg;
+    std::cout << "You've caused " << dmg << " points of damage to the enemy carrier." << std::endl;
+    std::cout << "The enemy carrier has " << otherCarrier._hitPoints << " HP left." << std::endl;
+    if (otherCarrier._hitPoints <= 0) {
+        std::cout << "You've sunk the enemy carrier!" << std::endl;
+    }
 }

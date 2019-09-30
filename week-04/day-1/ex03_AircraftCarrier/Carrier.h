@@ -15,8 +15,10 @@ public:
     void addAircraft(Aircraft* aircraftPtr);
     void fill();
     std::string getStatus();
+    void fight(Carrier &otherCarrier);
 
 private:
+    int getDamage();
     std::vector<Aircraft*> _aircrafts;
     int _hitPoints;
     int _ammoStorage;
