@@ -3,18 +3,24 @@
 
 #include <string>
 
+enum class Gender {
+    MALE,
+    FEMALE
+};
+
 class Person {
 public:
     Person();
-    Person(std::string name, int age, std::string gender);
+    Person(std::string name, int age, Gender gender);
 
     virtual void introduce();
     virtual void getGoal();
+    std::string getGender();
 
 protected:
     std::string _name;
     int _age;
-    std::string _gender;
+    Gender _gender;
 };
 
 

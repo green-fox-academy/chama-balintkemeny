@@ -7,15 +7,23 @@
 
 #include "Person.h"
 
+enum class Level {
+    JUNIOR,
+    INTERMEDIATE,
+    SENIOR
+};
+
 class Mentor : public Person {
 public:
     Mentor();
-    Mentor(std::string name, int age, std::string gender, std::string level);
+    Mentor(std::string name, int age, Gender gender, Level level);
 
     void introduce() override;
     void getGoal() override;
+    std::string getLevel();
+
 private:
-    std::string _level;
+    Level _level;
 };
 
 

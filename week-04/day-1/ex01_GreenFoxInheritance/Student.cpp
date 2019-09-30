@@ -6,7 +6,7 @@
 
 Student::Student() : _previousOrganization("The School of Life"), _skippedDays(0) {}
 
-Student::Student(std::string name, int age, std::string gender, std::string previousOrganization)
+Student::Student(std::string name, int age, Gender gender, std::string previousOrganization)
                 : _previousOrganization(previousOrganization), _skippedDays(0)
 {
     _name = name;
@@ -15,7 +15,7 @@ Student::Student(std::string name, int age, std::string gender, std::string prev
 }
 
 void Student::introduce() {
-    std::cout << "Hi, I'm " << _name << ", a " << _age << " year old " << _gender << " from " << _previousOrganization
+    std::cout << "Hi, I'm " << _name << ", a " << _age << " year old " << getGender() << " from " << _previousOrganization
               << " who skipped " << _skippedDays << " days from the course already." << std::endl;
 }
 
