@@ -10,6 +10,7 @@ public:
 
     virtual void introduce();
     virtual void getGoal();
+
 protected:
     std::string _name;
     int _age;
