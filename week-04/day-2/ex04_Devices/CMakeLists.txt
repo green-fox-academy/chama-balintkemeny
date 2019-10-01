@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.14)
+project(ex04_Devices)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(ex04_Devices main.cpp Printer.cpp Printer.h Printer2D.cpp Printer2D.h)
