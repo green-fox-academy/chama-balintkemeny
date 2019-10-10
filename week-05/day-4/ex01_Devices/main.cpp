@@ -29,6 +29,6 @@ int main() {
 
     Copier testCopier(30, 30, 200);
     testCopier.copy();
-    
+
     return 0;
 }
