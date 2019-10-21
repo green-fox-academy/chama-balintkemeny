@@ -5,20 +5,20 @@ int str_is_equal(char a[], char b[])
 {
     if (strlen(a) != strlen(b))
         return 0;
-    int is_equal = 1;
+
     for (int i = 0; i < strlen(a); ++i) {
         if (a[i] != b[i]) {
             if (a[i] < 91 && a[i] > 64 && a[i] + 32 != b[i])
-                is_equal = 0;
+                return 0;
             else if (a[i] > 96 && a[i] < 123 && a[i] - 32 != b[i])
-                is_equal = 0;
+                return 0;
             else if (a[i] < 65 || a[i] > 122)
-                is_equal = 0;
+                return 0;
             else if (a[i] > 90 && a[i] < 97)
-                is_equal = 0;
+                return 0;
         }
     }
-    return is_equal;
+    return 1;
 }
 
 int main()
