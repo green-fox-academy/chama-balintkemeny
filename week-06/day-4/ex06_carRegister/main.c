@@ -1,6 +1,5 @@
 #include <string.h>
 #include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
 
 /* Write a car register!
@@ -69,7 +68,13 @@ int get_transmission_count(car_t* car_array, int array_length, transmission_t tr
 
 int main()
 {
-    car_t car_array[3];
+
+    car_t car_array[] = { { "Toyota", 1500.50, 1994, MANUAL },
+                          { "Toyota", 1500.50, 1998, AUTOMATIC },
+                          { "Toyota", 1500.50, 1994, MANUAL },
+                          { "Toyota", 500.50, 1984, DUAL_CLUTCH },
+                          { "Toyota", 4500.50, 1994, CVT } };
+
     car_array[0].year = 1980;
     car_array[0].transmission = MANUAL;
     car_array[1].year = 2000;
@@ -78,9 +83,10 @@ int main()
     car_array[2].transmission = MANUAL;
 
     printf("Number of cars that are more than 20 years old: %d\n",
-            get_older_cars_than(car_array, 3, 20));
+            get_older_cars_than(car_array, sizeof(car_array)/ sizeof(car_t), 20));
 
     printf("Number of cars with manual transmission: %d\n",
-            get_transmission_count(car_array, 3, MANUAL));
+            get_transmission_count(car_array, 4, MANUAL));
+
     return 0;
 }
