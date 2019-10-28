@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 // write a function which takes a string and an integer as a parameter.
 // The function should return a string where the input string is repeating. The number of repetition is based on the value of the integer parameter.
@@ -26,7 +27,7 @@ char* str_repeater(const char* str_in, unsigned int multiplier)
 int main()
 {
     char* test_str = str_repeater("Apple", 5);
-    printf("%s\n", test_str);
+    printf("%s", test_str);
     free(test_str);
     return 0;
 }

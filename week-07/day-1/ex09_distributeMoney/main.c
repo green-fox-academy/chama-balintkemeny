@@ -31,5 +31,7 @@ int main()
         if (i != cnt_relatives - 1)
             printf(" ");
     }
+
+    free(relatives);
     return 0;
 }
