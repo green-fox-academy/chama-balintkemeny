@@ -19,5 +19,7 @@ int i_search(i_vector_t* vector, int el_value);
 void i_print(i_vector_t* vector);
 int i_get_remaining_capacity(i_vector_t* vector);
 void i_unique(i_vector_t* vector);
+void i_shuffle(i_vector_t* vector);
+void i_swap(i_vector_t* vector, int el_index1, int el_index2);
 
 #endif //VECTOR_VECTOR_H

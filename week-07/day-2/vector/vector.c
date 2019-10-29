@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #include "vector.h"
 
 void init_i_vector(i_vector_t* vector, int vec_capacity)
@@ -147,5 +148,26 @@ void i_unique(i_vector_t* vector)
                 i_delete_at(vector, j);
             }
         }
+    }
+}
+
+void i_swap(i_vector_t* vector, int el_index1, int el_index2)
+{
+    if (el_index1 < 0 || el_index2 < 0)
+        return;
+    if (el_index1 >= vector->size || el_index2 >= vector->size)
+        return;
+
+    int tmp = vector->data[el_index1];
+    vector->data[el_index1] = vector->data[el_index2];
+    vector->data[el_index2] = tmp;
+}
+
+void i_shuffle(i_vector_t* vector)
+{
+    srand(time(NULL));
+    for (int i = 0; i < vector->size; ++i) {
+        int rand_val = rand() % vector->size;
+        i_swap(vector, i, rand_val);
     }
 }

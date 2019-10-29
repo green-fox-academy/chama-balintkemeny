@@ -31,6 +31,9 @@ int main() {
     i_unique(&test_vector);
     i_print(&test_vector);
 
+    i_shuffle(&test_vector);
+    i_print(&test_vector);
+
     destroy_i_vector(&test_vector);
     i_print(&test_vector);
     return 0;
