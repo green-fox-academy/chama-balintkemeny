@@ -23,6 +23,8 @@ int main() {
     i_delete_at(&test_vector, 8);
     i_print(&test_vector);
 
+    printf("Value 666 is found at index: %d\n", i_search(&test_vector, 666));
+
     destroy_i_vector(&test_vector);
     i_print(&test_vector);
     return 0;

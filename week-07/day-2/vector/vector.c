@@ -103,6 +103,15 @@ int i_element_at(i_vector_t* vector, int el_index)
     return vector->data[el_index];
 }
 
+int i_search(i_vector_t* vector, int el_value)
+{
+    for (int i = 0; i < vector->size; ++i) {
+        if (vector->data[i] == el_value)
+            return i;
+    }
+    return -1;
+}
+
 void i_print(i_vector_t* vector)
 {
     printf("Size: %d, Capacity: %d, Init status:%d\n", vector->size, vector->capacity, vector->init_status);
