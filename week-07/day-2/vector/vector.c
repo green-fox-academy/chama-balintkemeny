@@ -70,6 +70,26 @@ void i_pop_back(i_vector_t* vector, int el_quantity)
     }
 }
 
+void i_delete_at(i_vector_t* vector, int el_index)
+{
+    if (el_index < 0) {
+        printf("Index out of bounds.\n");
+        return;
+    }
+    if (el_index >= vector->size) {
+        printf("Index out of bounds.\n");
+        return;
+    }
+
+    int tmp = 0;
+    if (el_index != vector->size - 1) {
+        for (int i = el_index; i < vector->size - 1; ++i) {
+            vector->data[i] = vector->data[i + 1];
+        }
+    }
+    i_pop_back(vector, 1);
+}
+
 int i_element_at(i_vector_t* vector, int el_index)
 {
     if (el_index < 0) {
@@ -102,4 +122,9 @@ void i_print(i_vector_t* vector)
         }
     }
     printf("}\n");
+}
+
+int i_get_remaining_capacity(i_vector_t* vector)
+{
+    return vector->capacity - vector->size;
 }

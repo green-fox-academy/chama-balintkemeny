@@ -18,9 +18,10 @@ int main() {
     i_pop_back(&test_vector, 2);
     i_print(&test_vector);
 
-    for (int i = 0; i < test_vector.size; ++i) {
-        printf("Element at index %d: %d\n", i, i_element_at(&test_vector, i));
-    }
+    printf("Remaining capacity: %d\n", i_get_remaining_capacity(&test_vector));
+
+    i_delete_at(&test_vector, 8);
+    i_print(&test_vector);
 
     destroy_i_vector(&test_vector);
     i_print(&test_vector);
