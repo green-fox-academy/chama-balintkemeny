@@ -18,5 +18,6 @@ int i_element_at(i_vector_t* vector, int el_index);
 int i_search(i_vector_t* vector, int el_value);
 void i_print(i_vector_t* vector);
 int i_get_remaining_capacity(i_vector_t* vector);
+void i_unique(i_vector_t* vector);
 
 #endif //VECTOR_VECTOR_H

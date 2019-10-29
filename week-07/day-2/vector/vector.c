@@ -137,3 +137,15 @@ int i_get_remaining_capacity(i_vector_t* vector)
 {
     return vector->capacity - vector->size;
 }
+
+void i_unique(i_vector_t* vector)
+{
+    for (int i = 0; i < vector->size; ++i) {
+        int tmp_val = vector->data[i];
+        for (int j = 0; j < vector->size; ++j) {
+            if (vector->data[j] == vector->data[i] && i != j) {
+                i_delete_at(vector, j);
+            }
+        }
+    }
+}

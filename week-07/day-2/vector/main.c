@@ -25,6 +25,12 @@ int main() {
 
     printf("Value 666 is found at index: %d\n", i_search(&test_vector, 666));
 
+    test_vector.data[5] = 3;
+    i_print(&test_vector);
+
+    i_unique(&test_vector);
+    i_print(&test_vector);
+
     destroy_i_vector(&test_vector);
     i_print(&test_vector);
     return 0;
