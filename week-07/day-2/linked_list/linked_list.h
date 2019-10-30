@@ -22,6 +22,6 @@ void list_destroy_elements(node_t* head_p);
 void list_destroy_w_head(node_t** head_pp);
 void print_list(node_t* head_p);
 node_t* list_search(node_t* head_p, int value);
-
+void list_delete_by_value(node_t** head_pp, int value);
 
 #endif //LINKED_LIST_LINKED_LIST_H

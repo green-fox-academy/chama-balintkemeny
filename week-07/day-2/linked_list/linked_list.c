@@ -169,3 +169,13 @@ node_t* list_search(node_t* head_p, int value) {
     }
     return it_pointer;
 }
+
+void list_delete_by_value(node_t** head_pp, int value)
+{
+    if (!(*head_pp))
+        return;
+    node_t* target = list_search(*head_pp, value);
+    if (target) {
+        list_delete_node(head_pp, target);
+    }
+}

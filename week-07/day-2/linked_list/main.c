@@ -31,7 +31,9 @@ int main() {
 
     list_delete_node(&head, get_address_by_index(head, 0));
     print_list(head);
-    printf("%p\n", list_search(head, 9));
+
+    list_delete_by_value(&head, 6);
+    print_list(head);
 
     list_destroy_w_head(&head);
     return 0;
