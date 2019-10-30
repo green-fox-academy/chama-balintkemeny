@@ -19,11 +19,12 @@ int main() {
 
     list_insert_after(get_address_by_index(head,2), 546);
     print_list(head);
+    printf("%d\n", get_list_size(head));
     printf("\n");
 
+    list_pop_front(&head);
+    print_list(head);
     printf("%d\n", get_list_size(head));
-    printf("%p\n", get_address_by_index(head, 11));
-    printf("%p\n", get_address_by_index(head, 12));
 
     list_destroy_w_head(&head);
     printf("%p\n", head);

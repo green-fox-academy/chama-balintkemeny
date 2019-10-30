@@ -13,6 +13,8 @@ node_t* create_node(int data)
 
 node_t* return_tail(node_t* head_p)
 {
+    if (!head_p)
+        return NULL;
     node_t* it_pointer = head_p;
     while (it_pointer->next) {
         it_pointer = it_pointer->next;
@@ -22,6 +24,8 @@ node_t* return_tail(node_t* head_p)
 
 node_t* return_penultimate(node_t* head_p)
 {
+    if (!head_p)
+        return NULL;
     node_t* it_pointer = head_p;
     while (it_pointer->next->next) {
         it_pointer = it_pointer->next;
@@ -31,6 +35,8 @@ node_t* return_penultimate(node_t* head_p)
 
 node_t* get_address_by_index(node_t* head_p, unsigned int index)
 {
+    if (!head_p)
+        return NULL;
     if (index > get_list_size(head_p) - 1)
         return NULL;
     node_t* it_pointer = head_p;
@@ -42,6 +48,8 @@ node_t* get_address_by_index(node_t* head_p, unsigned int index)
 
 int get_list_size(node_t* head_p)
 {
+    if (!head_p)
+        return 0;
     int cnt = 1;
     node_t* it_pointer = head_p;
     while (it_pointer->next) {
@@ -49,6 +57,14 @@ int get_list_size(node_t* head_p)
         cnt++;
     }
     return cnt;
+}
+
+int list_is_empty(node_t* head_p)
+{
+    if (get_list_size(head_p))
+        return 0;
+    else
+        return 1;
 }
 
 void list_push_back(node_t* head_p, int data)
@@ -85,6 +101,15 @@ void list_pop_back(node_t* head_p)
     node_t* penultimate = return_penultimate(head_p);
     penultimate->next = NULL;
     free(tail);
+}
+
+void list_pop_front(node_t** head_pp)
+{
+    if (!(*head_pp))
+        return;
+    node_t* new_head = (*head_pp)->next;
+    free(*head_pp);
+    *head_pp = new_head;
 }
 
 void list_destroy_elements(node_t* head_p)
