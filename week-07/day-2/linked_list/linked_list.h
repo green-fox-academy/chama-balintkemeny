@@ -17,6 +17,7 @@ void list_push_front(node_t** head_pp, int data);
 void list_insert_after(node_t* target, int data);
 void list_pop_back(node_t* head_p);
 void list_pop_front(node_t** head_pp);
+void list_delete_node(node_t** head_pp, node_t* target);
 void list_destroy_elements(node_t* head_p);
 void list_destroy_w_head(node_t** head_pp);
 void print_list(node_t* head_p);

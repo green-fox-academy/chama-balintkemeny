@@ -112,6 +112,26 @@ void list_pop_front(node_t** head_pp)
     *head_pp = new_head;
 }
 
+void list_delete_node(node_t** head_pp, node_t* target)
+{
+    if (!(*head_pp) || !target)
+        return;
+    if (target == *head_pp) {
+        list_pop_front(head_pp);
+        return;
+    }
+    if (target == return_tail(*head_pp)) {
+        list_pop_back(*head_pp);
+        return;
+    }
+    node_t* previous_node = *head_pp;
+    while(previous_node->next != target) {
+        previous_node = previous_node->next;
+    }
+    previous_node->next = target->next;
+    free(target);
+}
+
 void list_destroy_elements(node_t* head_p)
 {
     if (!head_p)

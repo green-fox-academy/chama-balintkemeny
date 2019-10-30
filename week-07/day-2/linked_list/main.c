@@ -26,6 +26,12 @@ int main() {
     print_list(head);
     printf("%d\n", get_list_size(head));
 
+    list_delete_node(&head, get_address_by_index(head, 2));
+    print_list(head);
+
+    list_delete_node(&head, get_address_by_index(head, 0));
+    print_list(head);
+
     list_destroy_w_head(&head);
     printf("%p\n", head);
 
