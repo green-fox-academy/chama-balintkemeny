@@ -29,6 +29,28 @@ node_t* return_penultimate(node_t* head_p)
     return it_pointer;
 }
 
+node_t* get_address_by_index(node_t* head_p, unsigned int index)
+{
+    if (index > get_list_size(head_p) - 1)
+        return NULL;
+    node_t* it_pointer = head_p;
+    for (unsigned int i = 0; i <index; ++i) {
+        it_pointer = it_pointer->next;
+    }
+    return it_pointer;
+}
+
+int get_list_size(node_t* head_p)
+{
+    int cnt = 1;
+    node_t* it_pointer = head_p;
+    while (it_pointer->next) {
+        it_pointer = it_pointer->next;
+        cnt++;
+    }
+    return cnt;
+}
+
 void list_push_back(node_t* head_p, int data)
 {
     if (!head_p)

@@ -9,7 +9,8 @@ typedef struct node {
 node_t* create_node(int data);
 node_t* return_tail(node_t* head_p);
 node_t* return_penultimate(node_t* head_p);
-node_t* get_address_by_index(node_t* head_p, int index);
+node_t* get_address_by_index(node_t* head_p, unsigned int index);
+int get_list_size(node_t* head_p);
 void list_push_back(node_t* head_p, int data);
 void list_push_front(node_t** head_pp, int data);
 void list_insert_after(node_t* target, int data);
