@@ -156,3 +156,16 @@ void print_list(node_t* head_p)
         it_pointer = it_pointer->next;
     }
 }
+
+node_t* list_search(node_t* head_p, int value) {
+    if (!head_p)
+        return NULL;
+    node_t* it_pointer = head_p;
+    int it_value = it_pointer->data;
+    while (it_pointer->data != value) {
+        if (!(it_pointer->next))
+            return NULL;
+        it_pointer = it_pointer->next;
+    }
+    return it_pointer;
+}
