@@ -1,5 +1,6 @@
 #include "asciigen.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 void print_help()
 {
@@ -21,20 +22,27 @@ void print_help()
     printf("    -regular            convert the BMP picture as multiple colored txt\n");
 }
 
-unsigned int read_bmp_size(char* file_path)
+int* read_bmp_metadata(char* file_path)
 {
-    unsigned int bmp_size = 1;
     FILE* fptr;
     fptr = fopen(file_path, "rb");
     if (!fptr)
         return 0;
-    unsigned char input_buffer[6];
-    unsigned long data_size = fread(input_buffer, sizeof(unsigned char), 6, fptr);
-    for (unsigned long i = 0; i < data_size; i++) {
-        printf("%2x: %2x\n", i, input_buffer[i]);
-    }
-    int* test_int_ptr = (int*)&input_buffer[2];
-    bmp_size = *test_int_ptr;
+
+    unsigned char input_buffer[54];
+    unsigned long data_size = fread(input_buffer, sizeof(unsigned char), 54, fptr);
     fclose(fptr);
-    return bmp_size;
+
+    int* bmp_metadata = (int*)calloc(4, sizeof(int));
+    int* bmp_size_p = (int*)&input_buffer[2];
+    int* bmp_width_p = (int*)&input_buffer[18];
+    int* bmp_height_p = (int*)&input_buffer[22];
+    int* bmp_depth_p = (int*)&input_buffer[46];
+
+    bmp_metadata[0] = *bmp_size_p;
+    bmp_metadata[1] = *bmp_width_p;
+    bmp_metadata[2] = *bmp_height_p;
+    bmp_metadata[3] = *bmp_depth_p;
+
+    return bmp_metadata;
 }

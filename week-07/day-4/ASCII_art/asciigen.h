@@ -2,6 +2,5 @@
 #define ASCII_ART_ASCIIGEN_H
 
 void print_help();
-unsigned int read_bmp_size(char* file_path);
-
+int* read_bmp_metadata(char* file_path);
 #endif //ASCII_ART_ASCIIGEN_H
