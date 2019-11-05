@@ -6,8 +6,6 @@
  */ 
 
 #include <avr/io.h>
-#define F_CPU 16000000
-#include <util/delay.h>
 
 void init()
 {
@@ -26,9 +24,10 @@ int main(void)
 	while (1)
 	{
 		// If TC0 counter overflow occurred (TOV0 flag is set) toggle the LED and write "1" to that flag
-		PINB = 0b00100000;
-		TIFR0 = 0b00000001;
-		//_delay_ms(200);
+		if ((TIFR0 & 0b00000001) == 0b00000001) {
+			PINB = 0b00100000;
+			TIFR0 = 0b00000001;
+		}
 		// (this will clear it, it's confusing, but this is how it works)
 	}
 }
