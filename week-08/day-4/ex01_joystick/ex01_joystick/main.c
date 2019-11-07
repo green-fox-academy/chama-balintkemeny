@@ -18,7 +18,7 @@ void init()
 	TCCR0B = 0b00000010;
 	
 	//Set ADC Enable
-	ADCSRA = 0b11100000;
+	ADCSRA = 0b11100011;
 	//Set left adjust
 	ADMUX = 0b00100000;
 }
