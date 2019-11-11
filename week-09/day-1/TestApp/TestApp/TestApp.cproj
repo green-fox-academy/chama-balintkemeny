@@ -12,9 +12,9 @@
     <OutputFileName>$(MSBuildProjectName)</OutputFileName>
     <OutputFileExtension>.elf</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
-    <AssemblyName>ex01_reac_sp</AssemblyName>
-    <Name>ex01_reac_sp</Name>
-    <RootNamespace>ex01_reac_sp</RootNamespace>
+    <AssemblyName>TestApp</AssemblyName>
+    <Name>TestApp</Name>
+    <RootNamespace>TestApp</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <KeepTimersRunning>true</KeepTimersRunning>
     <OverrideVtor>false</OverrideVtor>

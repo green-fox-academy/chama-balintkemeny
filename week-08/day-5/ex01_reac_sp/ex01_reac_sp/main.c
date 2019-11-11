@@ -16,12 +16,13 @@ void init()
 {
 	DDRD = 0b00000001;
 	//TCCR0B = 0b00000101;
+	EIMSK = 0b00000001;
 	PCICR = 0b00000001;
 	PCMSK0 = 0b00000001;
-	sei();	
+	sei();
 }
 
-ISR(PCINT0_vect){
+ISR(INT0_vect){
 	if (run_flag) {
 		run_flag = 0;
 	} else {
