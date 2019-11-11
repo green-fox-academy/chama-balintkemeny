@@ -17,8 +17,9 @@ typedef enum
 	NEG	
 } state_t;
 
-volatile state_t main_state;
-volatile uint8_t duty = 50;
+volatile state_t main_state = NEG;
+volatile uint8_t ir_flag = 0;
+volatile uint8_t duty = 100;
 
 void init()
 {
@@ -44,14 +45,7 @@ void set_duty(uint8_t duty)
 
 ISR(PCINT0_vect)
 {
-	if (main_state == IDLE) {
-		duty = 40;
-		main_state = POS;
-		PORTB = 0;
-	} else {
-		main_state = IDLE;
-		PORTB = 0b00100000;
-	}
+	ir_flag = 1;
 }
 
 int main(void)
@@ -60,21 +54,34 @@ int main(void)
 	
     while (1) 
     {
+		if (ir_flag) {
+			if (main_state == IDLE) {
+				duty = 100;
+				main_state = NEG;
+				PORTB = 0;
+				} else {
+				duty = 0;
+				main_state = IDLE;
+				PORTB = 0b00100000;
+			}
+			_delay_ms(500);
+			ir_flag = 0;
+		}
+		
 		set_duty(duty);
 		_delay_ms(1000);
 		
-		if (duty >= 100) {
+		if (duty >= 100 && main_state != IDLE) {
 			main_state = NEG;
 		}
 		
-		if (duty <= 40) {
+		if (duty <= 40 && main_state != IDLE) {
 			main_state = POS;
 		}
 		
 		switch (main_state)
 		{
 		case IDLE:
-			duty = 0;
 			break;
 		case POS:
 			duty += 5;
