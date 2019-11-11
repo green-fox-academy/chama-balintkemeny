@@ -52,7 +52,7 @@ int main(void)
 {
 	init();
 	
-    while (1) 
+    while (1)
     {
 		if (ir_flag) {
 			if (main_state == IDLE) {
