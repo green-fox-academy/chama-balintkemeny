@@ -12,7 +12,7 @@ typedef enum {
 	START,
 	END
 } cnt_state_t;
-uint8_t g_timer_state = START;
+cnt_state_t g_timer_state = START;
 
 // TODO:
 // Write the interrupt handlers
@@ -44,7 +44,7 @@ void freq_meas_init()
 	// Configure the TC1 timer properly :)
 	TCCR1B |= 1 << ICNC1;
 	TCCR1B |= 1 << ICES1;
-	TCCR1B |= 0b00000101;
+	TCCR1B |= 0b00000010;
 	TIMSK1 |= 1 << ICIE1;
 	TIMSK1 |= 1 << TOIE1;
 }
@@ -53,7 +53,7 @@ void freq_meas_init()
 // Write this function. It returns the measured frequency in Hz
 float get_freq()
 {
-	double period = 0.000064 * g_timer_diff;
+	double period = 0.0000005 * g_timer_diff;
 	float freq = 1 / period;
 	return freq;
 }
