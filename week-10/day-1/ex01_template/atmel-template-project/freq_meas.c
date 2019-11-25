@@ -29,7 +29,7 @@ ISR(TIMER1_CAPT_vect)
 		g_timer_state = END;
 		} else {
 		timer_cnt_end = ICR1;
-		g_timer_diff = g_ovf_cnt * 65535 + timer_cnt_start - timer_cnt_end;
+		g_timer_diff = g_ovf_cnt * 65535 + timer_cnt_end - timer_cnt_start;
 		g_timer_state = START;
 	}
 	g_ovf_cnt = 0;
