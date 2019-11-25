@@ -160,13 +160,13 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="freq_meas.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="freq_meas.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="main.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="TC74_driver.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="TC74_driver.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
