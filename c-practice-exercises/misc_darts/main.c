@@ -75,7 +75,7 @@ int main() {
         }
     }
 
-    printf("Congratulations %s! You won.\n", (player_array + winner_index)->name);
+    printf("Congratulations %s, you won!\n", (player_array + winner_index)->name);
     free(player_array);
     printf("Game Finished!\n");
     return 0;
