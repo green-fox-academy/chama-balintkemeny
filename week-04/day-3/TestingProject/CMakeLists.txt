@@ -7,7 +7,7 @@ set(PROJECT_LIB_NAME MyApp_lib)
 set(PROJECT_TESTS_NAME MyApp_tests)
 
 # Change this to the path where you extracted the Google Test files to
-set(PATH_TO_GOOGLETEST "D:/GreenFoxAcademy/googletest")
+set(PATH_TO_GOOGLETEST "/home/balintkemeny/greenfox/googletest")
 
 # Change this to your project name (optional)
 set(PROJECT_NAME TestingProject)
